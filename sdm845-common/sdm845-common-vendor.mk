@@ -824,6 +824,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm845-common/proprietary/system_ext/lib64/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbeluga.so
 
 PRODUCT_PACKAGES += \
+    libplatformconfig \
     libbtconfigstore \
     CneApp \
     IWlanService \
